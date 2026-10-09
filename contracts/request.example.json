@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "deal": {
+    "id": "example-loan-001",
+    "currency": "RUB",
+    "valuation_date": "2022-08-31",
+    "outstanding_principal": "3646037.89",
+    "annual_credit_rate": "0.075",
+    "first_payment_date": "2022-09-22",
+    "maturity_date": "2050-06-15",
+    "frequency_months": 1,
+    "day_count": "ACT/365F"
+  },
+  "discounting": {
+    "annual_rate": "0.075",
+    "method": "PERIOD_SIMPLE_CHAIN",
+    "day_count": "ACT/365F"
+  },
+  "payment_types": ["ANN", "SIMPLE", "RGM"]
+}

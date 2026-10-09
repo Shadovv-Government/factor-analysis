@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.runtime/
+node_modules/
+.venv/
+.presentation-build/
+.chart-data-*/
+*.inspect.ndjson
+outputs/**/qa/
+
+# Internal planning and build records
+/docs/progress.md
+/docs/superpowers/
+/outputs/sprint1_20261009/completion.json
+/outputs/sprint1_20261009/package_manifest.json
+/outputs/sprint1_20261009/test_results.txt
+
+# Original brief and chat screenshots stay local
+/Постановка_задачи_Часть3_*.docx
+/что есть.jpg
+/что надо сделать.jpg

@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "comparisons": 14371,
+  "scenarios": [
+    {
+      "name": "discount_10",
+      "passed": true
+    },
+    {
+      "name": "discount_0",
+      "passed": true
+    },
+    {
+      "name": "credit_10",
+      "passed": true
+    },
+    {
+      "name": "credit_0",
+      "passed": true
+    },
+    {
+      "name": "credit_20",
+      "passed": true
+    },
+    {
+      "name": "principal_double",
+      "passed": true
+    }
+  ],
+  "negative_rate_rejected": true,
+  "engine": "Artifact Tool authoring engine; native Excel application not automated",
+  "error_scan": [
+    {
+      "kind": "notice",
+      "message": "Cell search matched 0 entries."
+    }
+  ],
+  "chart_count": 3,
+  "rendering": {
+    "files": [
+      "qa/comparison.png",
+      "qa/parameters.png",
+      "qa/ANN_first.png",
+      "qa/ANN_last.png",
+      "qa/SIMPLE_first.png",
+      "qa/SIMPLE_last.png",
+      "qa/RGM_first.png",
+      "qa/RGM_last.png",
+      "figures/interest_totals.png",
+      "figures/balances.png",
+      "figures/regular_payments.png"
+    ],
+    "exit_code": 3221226505,
+    "native_shutdown_abort": true
+  },
+  "payment_count": 334,
+  "pv_tolerance": "0.00000010",
+  "money_tolerance": "0.000001",
+  "sources": [
+    {
+      "file": "annuity-payment-schedule.xlsx",
+      "sha256": "06f90aee9b2b6edf209f6a64ce662115b4a11ab4ca7ae285f380d817d3402ceb"
+    },
+    {
+      "file": "payment_schedules_discounted.xlsx",
+      "sha256": "e730baf1449f4d39be0b2474af017afdc1feeb1099238302c8634763f7987eb8"
+    }
+  ]
+}

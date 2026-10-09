@@ -1,0 +1,48 @@
+{
+  "schedules": {
+    "ANN": {
+      "passed": true,
+      "checked_payments": 334,
+      "principal_difference": "0.00",
+      "closing_balance": "0.00",
+      "failures": []
+    },
+    "SIMPLE": {
+      "passed": true,
+      "checked_payments": 334,
+      "principal_difference": "0.00",
+      "closing_balance": "0.00",
+      "failures": []
+    },
+    "RGM": {
+      "passed": true,
+      "checked_payments": 334,
+      "principal_difference": "0.00",
+      "closing_balance": "0.00",
+      "failures": []
+    }
+  },
+  "references": {
+    "passed": true,
+    "source_ann_rows": 334,
+    "discounted_rows": 1002,
+    "comparisons": 14737,
+    "mismatch_count": 0,
+    "mismatches": [],
+    "money_tolerance": "0.00",
+    "pv_tolerance": "0.00000010",
+    "factor_tolerance": "0.000000000001",
+    "source_mode": "saved_values_not_native_recalculation"
+  },
+  "sources": [
+    {
+      "file": "annuity-payment-schedule.xlsx",
+      "sha256": "06f90aee9b2b6edf209f6a64ce662115b4a11ab4ca7ae285f380d817d3402ceb"
+    },
+    {
+      "file": "payment_schedules_discounted.xlsx",
+      "sha256": "e730baf1449f4d39be0b2474af017afdc1feeb1099238302c8634763f7987eb8"
+    }
+  ],
+  "passed": true
+}
